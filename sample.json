@@ -1,0 +1,28 @@
+{
+  "name": "JSON View",
+  "version": "1.0.0",
+  "description": "A fast, beautiful JSON file viewer",
+  "author": "You",
+  "settings": {
+    "theme": "dark",
+    "fontSize": 14,
+    "showLineNumbers": true,
+    "features": ["tree-view", "syntax-highlighting", "zoom", "file-reload"]
+  },
+  "users": [
+    {"id": 1, "name": "Alice", "email": "alice@example.com", "active": true},
+    {"id": 2, "name": "Bob", "email": "bob@example.com", "active": false},
+    {"id": 3, "name": "Charlie", "email": null, "active": true}
+  ],
+  "stats": {
+    "totalFiles": 42,
+    "avgFileSize": 1024.5,
+    "largestFile": "data.json",
+    "nested": {
+      "deep": {
+        "value": "This is deeply nested",
+        "count": 99
+      }
+    }
+  }
+}
