@@ -2,7 +2,16 @@
 
 A fast, beautiful JSON file viewer with a dark theme. Opens JSON files and displays them in a structured, readable tree view with syntax highlighting.
 
-![JSON View](icon.png)
+<div align="center">
+  <img src="icon.png" alt="JSON View" width="128">
+</div>
+
+## Screenshots
+
+<div align="center">
+  <img src="images/screenshot1.png" alt="JSON View Tree View" width="48%">
+  <img src="images/screenshot2.png" alt="JSON View Text View" width="48%">
+</div>
 
 ## Features
 
@@ -123,4 +132,4 @@ json-view/
 
 ## License
 
-MIT
+[MIT](LICENSE)
