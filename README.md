@@ -43,6 +43,8 @@ python json_view.py myfile.json        # Open a specific file
 pip install -r requirements.txt
 ```
 
+For building the Windows installer, you also need to install [Inno Setup 6](https://jrsoftware.org/isinfo.php).
+
 ### Windows
 
 ```bash
@@ -50,6 +52,11 @@ pip install -r requirements.txt
 build_windows.bat
 
 # Output: dist/JSON View.exe
+
+# Build the Windows installer (requires Inno Setup 6)
+build_installer.bat
+
+# Final installer output: dist/json-view-setup-v0.1.0.exe
 ```
 
 ### macOS (Apple Silicon & Intel)
@@ -65,21 +72,23 @@ The macOS build uses `--target-architecture universal2` to produce a universal b
 
 ## Windows Integration
 
-### Install Right-Click Context Menu & Default Handler
+### Using the Installer (Recommended)
+The generated Windows installer natively handles adding context menus, shortcuts, and default application associations. During installation, you will have the option to:
+1. Set JSON View as the default `.json` file opener
+2. Add "Open with JSON View" to the right-click menu for `.json` files
+3. Add a general "Open with JSON View" option for all files
 
-After building, run **as Administrator**:
+### Manual Installation (Portable Mode)
+
+If you use the portable executable (`JSON View.exe`) without installing it, you can manually set up right-click menus. Run **as Administrator**:
 
 ```
 install_context_menu.bat
 ```
 
-This will:
-1. Register JSON View as an application
-2. Set it as the default `.json` file opener
-3. Add "Open with JSON View" to the right-click menu for `.json` files
-4. Add "Open with JSON View" to the right-click menu for all files
+This will manually register JSON View classes in the registry.
 
-### Uninstall
+### Uninstall Manual Integration
 
 Run **as Administrator**:
 
