@@ -3,6 +3,11 @@ dist/
 build/
 *.spec
 
+# Portable builds
+json-view-portable-v0.1.0/
+json-view-portable-v0.1.0.zip
+json-view-windows-portable-v0.1.0.zip
+
 # Python
 __pycache__/
 *.pyc

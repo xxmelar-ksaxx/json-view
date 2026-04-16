@@ -1,0 +1,2 @@
+SHA256 (json-view-windows-setup-v0.1.0.exe) = d39f9d7d5c543b35a298d139a46d4c3dcc61e8f7bf515f30a665ef14c7bb9254
+SHA256 (json-view-windows-portable-v0.1.0.zip) = bb8331098621982ed4a27e782a02d8f15a903fc236d698d04d3a9cf72df1ba95

@@ -68,6 +68,19 @@ build_installer.bat
 # Final installer output: dist/json-view-setup-v0.1.0.exe
 ```
 
+### Portable Build (Windows)
+
+To create a clean, standalone portable zip without installation:
+
+```bash
+# Build the portable zip (requires the executable to be built first)
+build_portable.bat
+
+# Output: 
+# - Folder: json-view-portable-v0.1.0/
+# - Archive: json-view-portable-v0.1.0.zip
+```
+
 ### macOS (Apple Silicon & Intel)
 
 ```bash
